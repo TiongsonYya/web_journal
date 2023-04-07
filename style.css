@@ -1,0 +1,144 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(72, 104, 136, 0.7), rgba(68, 95, 176, 0.7)), url(images/dl.jpg) ;
+   background-size: cover;
+   background-position: center;
+   padding-left: 8%;
+   padding-right: 8%;
+   box-sizing: border-box;
+   
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+   
+
+
+}
+ .logo{
+
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:honeydew;
+    font-family: 'Libre Baskerville', serif;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li  {
+   list-style: none;
+   display: inline-block;
+   margin-left: 40px;
+}
+nav ul li a{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+nav ul li a:hover{
+    text-decoration: none;
+   color: hotpink;
+   transition: 0.4s;
+}
+.row{
+    display: flex ;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+.col{
+    flex-basis: 80%;
+}
+h1{
+    color: rgb(39, 43, 39);
+    font-size: 70px;
+    font-family: 'Genos', sans-serif;
+    margin-top: 50px;
+
+}
+.qoute{
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+.card{
+    width: 180px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+ 
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    overflow: hidden;
+  
+}
+.c1{
+    background-image: url(images/ai.png);
+
+    
+}
+.c2{
+    background-image: url(images/iot.jpg);
+}
+.c3{
+    background-image: url(images/ai3.jpg);
+}
+.c4{
+    background-image: url(images/ot.jpg);
+}
+.c5{
+    background-image: url(images/data.jpg);
+}
+.card:hover{
+transform: translateY(-10px);
+}
+
+p{
+    color: rgb(211, 220, 177);
+    font-size: 10px;
+}
+h5{
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+h3{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.y{
+    font-size: 14px;
+    color: black;
+    margin-top: 2px;
+    justify-content: center;
+    padding: 5px 5px;
+  
+}
+
